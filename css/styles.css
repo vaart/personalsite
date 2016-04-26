@@ -21,7 +21,7 @@
 /*	border: solid;*/
 	background: #A5E6BA;
 	font-family: bannerfont;
-	font-size: 20pt;
+	font-size: 24pt;
 	color: #360568;
 }
 
@@ -33,15 +33,15 @@
 
 .name{
 /*	border: dotted;*/
-	width: 20%;
-	padding-left: 50px;
+	width: 35%;
+	padding-left: 30px;
 	font-weight: bold;
 	letter-spacing: 7px;
 /*	font-family: nameFont;*/
 }
 
 nav{
-	width: 70%;
+	width: 60%;
 /*	border: solid;*/
 }
 
@@ -53,13 +53,14 @@ nav ul{
 
 nav ul li{
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 30px;
 	float: right;
 }
 
 nav ul li a{
 	color: #360568;
 	text-decoration: none;
+	letter-spacing: 3px;
 }
 nav ul li a:hover{
 	background: #9AC6C5;
