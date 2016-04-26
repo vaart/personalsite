@@ -1,6 +1,10 @@
 @font-face{
 	font-family: bannerfont;
-	src: url(../fonts/GeomaT.otf);
+	src: url(../fonts/MF.ttf);
+}
+@font-face{
+	font-family: nameFont;
+	src: url(../fonts/CL.otf);
 }
 
 #wrap{
@@ -29,14 +33,16 @@
 
 .name{
 /*	border: dotted;*/
-	width: 100px;
+	width: 20%;
 	padding-left: 50px;
+	font-weight: bold;
+	letter-spacing: 7px;
+/*	font-family: nameFont;*/
 }
 
 nav{
-	width: 50%;
+	width: 70%;
 /*	border: solid;*/
-	float: right;
 }
 
 nav ul{
@@ -48,6 +54,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	margin-left: 20px;
+	float: right;
 }
 
 nav ul li a{
@@ -60,3 +67,19 @@ nav ul li a:hover{
 .home{
 	background: #9AC6C5;
 }
+.content{
+	clear: both;
+/*	border: dotted;*/
+}
+
+.leftColumn, .rightColumn{
+	float: left;
+	margin-top: 30px;
+}
+.leftColumn{
+	width:70%;
+}
+.rightColumn{
+	width:30%;
+}
+
