@@ -65,7 +65,7 @@ nav ul li a{
 nav ul li a:hover{
 	background: #9AC6C5;
 }
-.home{
+.home, .active{
 	background: #9AC6C5;
 }
 .content{
@@ -75,12 +75,15 @@ nav ul li a:hover{
 
 .leftColumn, .rightColumn{
 	float: left;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .leftColumn{
 	width:70%;
 }
 .rightColumn{
 	width:30%;
+}
+.img{
+	margin: 10px;
 }
 
